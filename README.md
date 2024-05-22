@@ -1,2 +1,2 @@
 # ESP32_Azure_sdk
-School project
+School project Candela
