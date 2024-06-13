@@ -36,6 +36,6 @@ Det syns här att jag startade sensorn den 19e maj en kort stund. Att det var en
 * Säkerhet  
 I mitt http protokoll skickar jag med ett sll certifikat för identifiering mot webserver. Kommunikationen mellan min client och webservern krypteras. MAC används för att upptäcka om data manipulerats under överföring.
  
-Med hjälp av Azure Iot Exlporer, använder jag sak (device) id och sak (device) nyckel, för att skapa ett tidsbegränsat SAS (Shared Access Signature) token för autentisering mot min Azure hub.
+Med hjälp av Azure Iot Exlporer, använder jag sak (device) id och sak (device) nyckel, för att skapa ett tidsbegränsat SAS (Shared Access Signature) token för autentisering mot min Azure hubb.
  
-Azure erjuder andra sätt för autentisering (t.ex. certifikat) och det kan vara bra att tänka på vilket alternativ man väljer till sitt projekt, SAS är ett sätt att begränsa tiden för hur länge saken har åtkomst att skicka meddelanden till huben.
+Azure erjuder andra sätt för autentisering (t.ex. certifikat) och det kan vara bra att tänka på vilket alternativ man väljer till sitt projekt, SAS är ett sätt att begränsa tiden för hur länge saken har åtkomst att skicka meddelanden till hubben.
